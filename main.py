@@ -3,7 +3,6 @@ import asyncio
 from apify import Actor
 from playwright.async_api import async_playwright
 
-
 async def get_strava_cookies():
     async with async_playwright() as p:
         # Запускаем браузер
